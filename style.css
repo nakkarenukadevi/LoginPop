@@ -1,0 +1,69 @@
+h1 {
+    background-color: blue;
+    color: brown;
+}
+
+.pop {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: yellow;
+    padding: 50px;
+    visibility: hidden;
+
+}
+
+.add_pop {
+    visibility: visible;
+}
+
+input {
+    padding: 15px;
+    width: 300px;
+    margin-top: 5px;
+    font-size: medium;
+}
+
+#checkbox {
+    width: 13px;
+    margin: 15px;
+}
+
+.checkbox_div span {
+    color: gray;
+}
+
+#input-boxes h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#input-boxes h4 {}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    width: 330px;
+    height: 50px;
+    background-color: black;
+    color: beige;
+
+
+}
+
+P {
+    text-align: center;
+    font-size: 10px;
+}
+
+.icon_x {
+    position: absolute;
+    top: 22px;
+    right: 316px;
+    font-size: 25px;
+
+}
