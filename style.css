@@ -39,7 +39,9 @@ input {
     font-weight: bolder;
 }
 
-#input-boxes h4 {}
+#input-boxes h4 {
+    padding: 10px;
+}
 
 .logo {
     width: 300px;
@@ -53,6 +55,11 @@ button {
     color: beige;
 
 
+
+}
+
+button:active {
+    background-color: gray;
 }
 
 P {
@@ -61,9 +68,9 @@ P {
 }
 
 .icon_x {
-    position: absolute;
-    top: 22px;
-    right: 316px;
+    position: relative;
+    top: -47px;
+    left: 686px;
     font-size: 25px;
 
 }
