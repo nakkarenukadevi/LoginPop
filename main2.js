@@ -1,5 +1,5 @@
 
-
+let modalClosed = false;    
 
 let container = document.getElementById("container");
 
@@ -9,18 +9,18 @@ let modelpop1 = document.createElement("div");
 
 
 
-function openModelpop() {
-    let model = document.getElementById("modelpop")
-    model.classList.add("add_pop")
+// function openModelpop() {
+//     let model = document.getElementById("modelpop")
+//     model.classList.add("add_pop")
 
 
-}
+// }
 
-function closepop() {
-    let model = document.getElementById("modelpop")
-    model.classList.remove("add_pop");
+// function closepop() {
+//     let model = document.getElementById("modelpop")
+//     model.classList.remove("add_pop");
 
-}
+// }
 
 
 function usersignin() {
@@ -39,7 +39,7 @@ function usersignin() {
 }
 
 
-modelpop1.innerHTML = ` <div class="pop" id="modelpop"  " >
+modelpop1.innerHTML = ` <div class="pop" id="modelpop">
         <div class="icon_x" onclick="closepop()" >x</div>
 
          <div id="input-boxes">
@@ -67,8 +67,9 @@ modelpop1.innerHTML = ` <div class="pop" id="modelpop"  " >
 </div>
 
 </div>
-
-
-
 </div> `
-container.append(modelpop1);
+
+document.addEventListener("mouseleave",()=>{
+    container.append(modelpop1);
+})
+
